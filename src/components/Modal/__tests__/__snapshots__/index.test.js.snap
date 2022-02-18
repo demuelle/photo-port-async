@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <div
+    class="modalBackdrop"
+  >
+    <div
+      class="modalContainer"
+    >
+      <h3
+        class="modalTitle"
+        data-testid="modal-title"
+      >
+        testphoto
+      </h3>
+      <img
+        alt="description of a testphoto"
+        src="1.jpg"
+      />
+      <p>
+        Photo Description
+      </p>
+      <button
+        type="button"
+      >
+        Close this modal
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
